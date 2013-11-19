@@ -6,12 +6,12 @@
 
 Summary:	Absract your phrases with YAML
 Name:		perl-%{upstream_name}
-Version:	0.09
-Release:	2
+Version:	%perl_convert_version 0.12
+Release:	1
 License:	Artistic/GPL
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/Data-Phrasebook-Loader-YAML/
-Source:		http://www.cpan.org/modules/by-module/Data/%{upstream_name}-%{version}.tar.gz
+Source:		http://www.cpan.org/modules/by-module/Data/Data-Phrasebook-Loader-YAML-0.12.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -49,4 +49,5 @@ find %{buildroot} -name .packlist -exec %{__rm} {} \;
 + Revision: 701516
 - first mandriva version
 - Created package structure for 'perl-Data-Phrasebook-Loader-YAML'.
+
 
