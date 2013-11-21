@@ -1,2 +1,4 @@
+removed_sources:
+  Data-Phrasebook-Loader-YAML-0.09.tar.gz: 930c63ded713c801cf16147b1e27517515a17a5d
 sources:
-  "Data-Phrasebook-Loader-YAML-0.09.tar.gz": 930c63ded713c801cf16147b1e27517515a17a5d
+  Data-Phrasebook-Loader-YAML-0.12.tar.gz: 4be2a4a05937a7d98dd04dabdd89e50b815bab70
